@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./design/Outfit-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "MyFont", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.mainDiv {
+  width: 100%;
+  height: calc(100vh - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrCard {
+  background-color: hsl(0, 0%, 100%);
+  width: 320px;
+  border-radius: 5%;
+  padding: 10px;
+  text-align: center;
+  margin: 0 5px 0 5px;
+}
+
+.qrImage {
+  border-radius: 5%;
+  width: 100%;
+}
+
+.headline {
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(218, 44%, 22%);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+}
+
+.cardText {
+  padding: 0 20px 10px 20px;
+}
+
+@media (max-width: 380px) {
+  .headline {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 13px;
+  }
+}
