@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live URL](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/EngSeif/Frontend_Mentor_Challenges/tree/main/blogPreview_Card)
+- Live Site URL: [Live URL](https://frontend-mentor-challenges-oo6u.vercel.app/)
 
 ## My process
 
